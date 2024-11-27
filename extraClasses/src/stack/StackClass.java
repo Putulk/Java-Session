@@ -1,4 +1,4 @@
-package stack;
+package com.company.extraClasses.src.stack;
 
 import java.util.Scanner;
 
