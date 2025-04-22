@@ -32,5 +32,6 @@ public class ArrayListExercise{
         colorList.add("Orange");
         System.out.println("List after adding element at first position: ");
         System.out.println(colorList);
+
     }
 }

@@ -3,7 +3,7 @@ import java.util.*;
 public class FindDuplicates{
     public static void main(String[] args){
         FindDuplicates findDuplicates = new FindDuplicates();
-        int[] arr = new int[]{3,1, 0, 4, 2, 3, 1};
+        int[] arr = new int[]{3,1, 0, 4, 2, 1};
         System.out.println("Duplicates list: "+findDuplicates.findDuplicatesInArr(arr));
     }
 
@@ -19,9 +19,11 @@ public class FindDuplicates{
                 set.add(num);
             }
         }
+
         list.addAll(set);
         Collections.sort(list);
         return list;
 
     }
+
 }
